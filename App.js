@@ -11,7 +11,7 @@ function CalcularIdade(){
 
   const Idade = anoAtual - anoNasc;
 
-  alert ("Você têm/terá " +Idade+ " anos de idade nesse ano!");
+  alert ("Você têm terá " +Idade+ " anos de idade nesse ano!");
 
 }
   return (
@@ -24,6 +24,8 @@ function CalcularIdade(){
       <TextInput style={styles.campoAnoatual} placeholder="Diga-me o ano atual:"
       keyboardType='numeric' onChangeText={setAnoatual}>
       </TextInput>
+
+
 
       <TextInput style={styles.campoAnonasc} placeholder="Diga-me seu ano de nascimento:"
       keyboardType='numeric' onChangeText={setAnonasc}>
