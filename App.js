@@ -9,7 +9,7 @@ const [anoNasc, setAnonasc] = useState ('');
 
 function CalcularIdade(){
 
-  const Idade = anoAtual - anoNasc;
+  const Idade = parseInt(anoAtual) - parseInt(anoNasc);
 
   alert ("Você têm terá " +Idade+ " anos de idade nesse ano!");
 
